@@ -1,5 +1,6 @@
 
-MIGRATIONS COMMAND 
+MIGRATIONS COMMAND
+
     python manage.py makemigrations 
     This command will give me a file in which all columns and data type and constraints will be defined
         python manage.py migrate 
