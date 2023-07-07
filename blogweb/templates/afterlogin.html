@@ -1,0 +1,49 @@
+{% block head %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{%static 'css/utils.css'%}">
+    <link rel="stylesheet" href="{%static 'css/style.css'%}">
+    <link rel="stylesheet" href="{%static 'css/mobile.css'%}">
+
+    <link rel="stylesheet" href="{%static 'css/bootstrap.min.css'%}">
+    <link rel="stylesheet" href="{%static 'css/font-awesome.min.css'%}">
+    <link rel="stylesheet" href="{%static 'css/animate.css'%}">
+    <link rel="stylesheet" href="{%static 'css/owl.carousel.css'%}">
+    <link rel="stylesheet" href="{%static 'css/owl.theme.default.min.css'%}">
+    <link rel="stylesheet" href="{%static 'css/magnific-popup.css'%}">
+    <link rel="stylesheet" href="{%static 'css/templatemo-style.css'%}">
+</head>
+<body>
+    <div class="grad5">
+        <nav class="navigation max-width-1 m-auto">
+            <div class="nav-left">
+                <ul>
+                    <li><a href="/"><i><b>Home</b></i></a></li>
+                    <li><a href="/blog/addblog/"><i><b>Add Blog</b></i></a></li>
+                    <li><a href="/blog/showblog/"><i><b>Show Blog</b></i></a></li>
+                    <li><a href="#"><i><b>My Blog</b></i></a></li>
+                    <li><a href="/blog/category"><i><b>Blog Category</b></i></a></li>
+                    <li><a href="/logout/"><i><b>Logout</b></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    
+        <!-- SCRIPTS -->
+        <script src="{%static 'js/jquery.js'%}"></script>
+        <script src="{%static 'js/bootstrap.min.js'%}"></script>
+        <script src="{%static 'js/jquery.stellar.min.js'%}"></script>
+        <script src="{%static 'js/wow.min.js'%}"></script>
+        <script src="{%static 'js/owl.carousel.min.js'%}"></script>
+        <script src="{%static 'js/jquery.magnific-popup.min.js'%}"></script>
+        <script src="{%static 'js/smoothscroll.js'%}"></script>
+        <script src="{%static 'js/custom.js'%}"></script>
+    </div>
+</body>
+</html>
+{% endblock %}

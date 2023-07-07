@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% load static %}
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{%static 'css/signup.css'%}">
+    <link rel="stylesheet" href="{%static 'css/utils.css'%}">
+    <link rel="stylesheet" href="{%static 'css/style.css'%}">
+    <link rel="stylesheet" href="{%static 'css/mobile.css'%}">
+    
+    <link rel="stylesheet" href="{%static 'css/bootstrap.min.css'%}">
+    <link rel="stylesheet" href="{%static 'css/font-awesome.min.css'%}">
+    <link rel="stylesheet" href="{%static 'css/animate.css'%}">
+    <link rel="stylesheet" href="{%static 'css/owl.carousel.css'%}">
+    <link rel="stylesheet" href="{%static 'css/owl.theme.default.min.css'%}">
+    <link rel="stylesheet" href="{%static 'css/magnific-popup.css'%}">
+    <link rel="stylesheet" href="{%static 'css/templatemo-style.css'%}">
+
+    <style>
+        .bg-text {
+        background-color : #CD5C5C;
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 3px solid black;
+        top: 50%;
+        width: 90%;
+        padding: 20px;
+        top: 50%;
+        width: 90%;
+        padding: 20px;
+        margin-left: 50px;
+        text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div><br><br>
+        <center>
+            <p><b><i><font size="10"> Blogs </font size></i></b></p>
+        </center>
+    </div>
+
+    <hr>
+    <div class="bg-image"></div>
+
+    <div class="home-article-content font1">
+        <div class="bg-text">
+            <center>
+                {% for obj in blog %} 
+                <h1>{{obj.title}}</h1>
+                <p> <font size = 5px>{{obj.post}}</font size></p></h1>
+                <h3>{{obj.author.email}}</h3>
+                <h4>{{obj.date}}</h4>
+                <hr>
+                <hr><br>
+                {% endfor %}
+            </center>
+        </div>
+    </div>
+    <hr>
+</body>
+</html>

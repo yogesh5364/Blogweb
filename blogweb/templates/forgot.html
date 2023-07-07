@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{%static 'css/signup.css'%}">
+    <link rel="stylesheet" href="{%static 'css/utils.css'%}">
+    <link rel="stylesheet" href="{%static 'css/style.css'%}">
+    <link rel="stylesheet" href="{%static 'css/mobile.css'%}">
+    
+    <link rel="stylesheet" href="{%static 'css/bootstrap.min.css'%}">
+    <link rel="stylesheet" href="{%static 'css/font-awesome.min.css'%}">
+    <link rel="stylesheet" href="{%static 'css/animate.css'%}">
+    <link rel="stylesheet" href="{%static 'css/owl.carousel.css'%}">
+    <link rel="stylesheet" href="{%static 'css/owl.theme.default.min.css'%}">
+    <link rel="stylesheet" href="{%static 'css/magnific-popup.css'%}">
+    <link rel="stylesheet" href="{%static 'css/templatemo-style.css'%}">
+</head>
+<body>
+    <div><br><br>
+        <center>
+            <p><b><i><font size="10"> Forgot </font size></i></b></p><br>
+            <p><b><i><font size="10"> Password </font size></i></b></p>
+        </center>
+    </div><br>
+
+    <div class="grad5">
+        <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">        
+            <center>
+                <h1 style="color: cadetblue;">{{msg}}</h1>
+                <form method="POST" action="/getemail/">
+                    {% csrf_token %} 
+                    <input type="email" name="email" placeholder="EMAIL"><br><br>
+                    <!--form(key) : object which you are getting from Login View-->
+                    <input type="submit" value="Submit">
+                </form>
+            </center>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="{%static 'js/jquery.js'%}"></script>
+    <script src="{%static 'js/bootstrap.min.js'%}"></script>
+    <script src="{%static 'js/jquery.stellar.min.js'%}"></script>
+    <script src="{%static 'js/wow.min.js'%}"></script>
+    <script src="{%static 'js/owl.carousel.min.js'%}"></script>
+    <script src="{%static 'js/jquery.magnific-popup.min.js'%}"></script>
+    <script src="{%static 'js/smoothscroll.js'%}"></script>
+    <script src="{%static 'js/custom.js'%}"></script>
+</body>
+</html>

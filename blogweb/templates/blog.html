@@ -1,0 +1,495 @@
+{% block head %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{%static 'css/utils.css'%}">
+    <link rel="stylesheet" href="{%static 'css/style.css'%}">
+    <link rel="stylesheet" href="{%static 'css/mobile.css'%}">
+
+    <link rel="stylesheet" href="{%static 'css/bootstrap.min.css'%}">
+    <link rel="stylesheet" href="{%static 'css/font-awesome.min.css'%}">
+    <link rel="stylesheet" href="{%static 'css/animate.css'%}">
+    <link rel="stylesheet" href="{%static 'css/owl.carousel.css'%}">
+    <link rel="stylesheet" href="{%static 'css/owl.theme.default.min.css'%}">
+    <link rel="stylesheet" href="{%static 'css/magnific-popup.css'%}">
+    <link rel="stylesheet" href="{%static 'css/templatemo-style.css'%}">
+</head>
+
+<body>
+    <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <a href="/">
+                <span><img src="static/images/logo.jpg" width="94px" alt=""></span>
+            </a>
+            <ul>
+                <li><a href="/"><i><b>Home</b></i></a></li>
+                <li><a href="#"><i><b>Information</b></i></a></li>
+                <li><a href="/blog_login/"><i><b>Login</b></i></a></li>
+                <li><a href="/blog_signup/"><i><b>Signup</b></i></a></li>
+                <li><a href="/blog_about/"><i><b>About</b></i></a></li>
+            </ul>
+        </div>
+
+        <div class="nav-right">
+            <form action="" method="get"><br>
+                <center>
+                    <input class="form-input" type="text" name="query" placeholder="">
+                    <button class="btn"><i><b>Search</b></i></button>
+                </center>
+            </form>
+        </div>
+    </nav>
+
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+    <div class="m-auto content max-width-1 my-2">
+        <div class="content-left">
+            <h1><i><b> &nbsp; Online Education</b></i></h1>
+            <p><i><b><h4>
+                Online education is a procedure of gaining skills and knowledge through electronic devices like computers,
+                mobiles, laptops, etc using the internet. Online education makes it possible for tutors or mentors to reach
+                all the students more flexibly and teach them the relevant skills more efficiently. The students who can not
+                attend traditional regular classes now can also learn anything from anywhere using the internet.
+            </h4></b></i></p>
+        </div>
+        <div class="content-right">
+            <img src="static/images/home.jpg" alt="iBlog">
+        </div>
+    </div>
+
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+
+    <div class="home-articles max-width-1 m-auto font2" style="float:left; padding-left: 50px;">
+        <h2><i><b>&nbsp; &nbsp; &nbsp; &nbsp; Featured Articles</b></i></h2>
+    
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="static/images/covid.jpg" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <a href="https://elemental.medium.com/which-covid-booster-shot-is-best-5efd873655d8">
+                    <h3>Which Covid Booster Shot is Best?</h3>
+                </a><br>
+
+                <div>Robert Roy Britt</div>
+                <span>December 15, 2021</span>
+            </div>
+        </div>
+
+        <div class="home-article">
+            <div class="home-article-img"><br><br>
+                <img src="static/images/bmw.jpg" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <a href="https://indianautosblog.com/bmw-motorrad-india-achieves-all-time-sales-high-p324556">
+                    <h3>BMW Motorrad India Achieves All-Time Sales High</h3>
+                </a><br>
+
+                <div>IAB Team</div>
+                <span>December 14, 2021</span>
+            </div>
+        </div>
+
+        <div class="home-article">
+            <div class="home-article-img"><br><br>
+                <img src="static/images/hyundai.jpg" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <a href="https://indianautosblog.com/hyundai-seven-all-electric-suv-concept-teased-p324490">
+                    <h3>Hyundai SEVEN All-Electric SUV Concept Teased</h3>
+                </a><br>
+
+                <div>Hyundai</div>
+                <span>November 05, 2021</span>
+            </div>
+        </div>
+
+        <div class="home-article">
+            <div class="home-article-img"><br><br>
+                <img src="static/images/job.jpg" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <a href="https://grras.com/blog/job-oriented-courses-after-be-btech-bca-mca">
+                    <h3>Top 5 Job Oriented Courses After B.E / B.Tech / BCA / MCA Degree</h3>
+                </a><br>
+
+                <div>Poonam</div>
+                <span>October 15, 2021</span>
+            </div>
+        </div>
+
+        <div class="home-article">
+            <div class="home-article-img"><br><br>
+                <img src="static/images/maldives.jpg" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <a href="https://www.firstpost.com/blogs/pack-your-passport-the-maldives-is-calling-10009621.html">
+                    <h3>Pack Your Passport, The Maldives Is Calling</h3>
+                </a><br>
+
+                <div>Priyanko Sarkar</div>
+                <span>September 29, 2021</span>
+            </div>
+        </div>
+
+        <div class="home-article">
+            <div class="home-article-img"><br><br>
+                <img src="static/images/water.jpg" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <a href="https://www.firstpost.com/blogs/learnings-from-the-past-indias-indigenous-water-conservation-methods-9909851.html">
+                    <h3>LEARNINGS FROM THE PAST: INDIA’S INDIGENOUS WATER CONSERVATION METHODS</h3>
+                </a><br>
+
+                <div>Studio 18</div>
+                <span>August 24, 2021 </span>
+            </div>
+        </div>
+
+        <div class="home-article">
+            <div class="home-article-img"><br><br>
+                <img src="static/images/unspoken.jpg" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <a href="https://www.unspokensmiles.org/post/responding-to-the-covid-19-crisis-unspoken-smiles-connects-career-role-models-to-schools-virtually">
+                    <h3>Responding to the COVID-19 Crisis: Unspoken Smiles
+                        Connects Career Role Models to Schools Virtually</h3>
+                </a><br>
+
+                <div>Unspoken Smiles</div>
+                <span>April 13, 2020</span>
+            </div>
+        </div>
+
+        <div class="home-article">
+            <div class="home-article-img"><br><br>
+                <img src="static/images/bhim.jpg" alt="article">
+            </div>
+            <div class="home-article-content font1">
+                <a href="https://www.indiatoday.in/india/north/story/natwar-singh-writes-on-champion-of-the-downtrodden-dr-br-ambedkar-185880-2014-03-23">
+                    <h3>Natwar Singh writes on champion of the downtrodden Dr BR Ambedkar</h3>
+                </a><br>
+
+                <div>Natwar Singh</div>
+                <span>March 23, 2014</span>
+            </div>
+        </div>
+    </div><br>
+
+    <div class="grad5" style="padding-left: 15px;">
+        <h2><i><b>&nbsp; &nbsp; &nbsp; &nbsp; Blogs</b></i></h2>
+    
+        <div>
+            <a href="http://www.cricbuzz.com">
+            <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
+                <p><i><b>
+                    If I play, I'll be listed at<br>
+                    number 3 - Mitchell Marsh<br></b>
+                    <ab style="color: rgb(68, 66, 66);">2h ago</ab>
+                </i></p>
+            </div>
+            </a>
+        </div><br><br>
+
+        <div>
+            <a href="http://www.cricbuzz.com">
+            <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
+                <p><i><b>
+                    Big business houses show<br> 
+                    interest in new IPL teams<br></b>
+                    <ab style="color: rgb(68, 66, 66);">11h ago</ab>
+                </i></p>
+            </div>
+            </a>
+        </div><br><br>
+
+        <div>
+            <a href="http://www.cricbuzz.com">
+            <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
+                <p><i><b>
+                    Big business houses show<br> 
+                    interest in new IPL teams<br></b>
+                    <ab style="color: rgb(68, 66, 66);">11h ago</ab>
+                </i></p>
+            </div>
+            </a>
+        </div><br><br>
+
+        <div><br>
+            <a href="http://www.cricbuzz.com">
+            <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
+                <p><i><b>
+                    If I play, I'll be listed at<br>
+                    number 3 - Mitchell Marsh<br></b>
+                    <ab style="color: rgb(68, 66, 66);">2h ago</ab>
+                </i></p>
+            </div>
+            </a>
+        </div><br><br>
+
+        <div><br>
+            <a href="http://www.cricbuzz.com">
+            <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
+                <p><i><b>
+                    If I play, I'll be listed at<br>
+                    number 3 - Mitchell Marsh<br></b>
+                    <ab style="color: rgb(68, 66, 66);">2h ago</ab>
+                </i></p>
+            </div>
+            </a>
+        </div><br><br>
+
+        <div><br>
+            <a href="http://www.cricbuzz.com">
+            <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
+                <p><i><b>
+                    If I play, I'll be listed at<br>
+                    number 3 - Mitchell Marsh<br></b>
+                    <ab style="color: rgb(68, 66, 66);">2h ago</ab>
+                </i></p>
+            </div>
+            </a>
+        </div><br><br>
+
+        <div><br>
+            <a href="http://www.cricbuzz.com">
+            <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
+                <p><i><b>
+                    If I play, I'll be listed at<br>
+                    number 3 - Mitchell Marsh<br></b>
+                    <ab style="color: rgb(68, 66, 66);">2h ago</ab>
+                </i></p>
+            </div>
+            </a>
+        </div><br><br>
+
+        <div><br>
+            <a href="http://www.cricbuzz.com">
+            <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
+                <p><i><b>
+                    If I play, I'll be listed at<br>
+                    number 3 - Mitchell Marsh<br></b>
+                    <ab style="color: rgb(68, 66, 66);">2h ago</ab>
+                </i></p>
+            </div>
+            </a>
+        </div><br><br>
+
+        <div><br>
+            <a href="http://www.cricbuzz.com">
+            <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
+                <p><i><b>
+                    If I play, I'll be listed at<br>
+                    number 3 - Mitchell Marsh<br></b>
+                    <ab style="color: rgb(68, 66, 66);">2h ago</ab>
+                </i></p>
+            </div>
+            </a>
+        </div><br><br>
+
+        <div><br>
+            <a href="http://www.cricbuzz.com">
+            <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
+                <p><i><b>
+                    If I play, I'll be listed at<br>
+                    number 3 - Mitchell Marsh<br></b>
+                    <ab style="color: rgb(68, 66, 66);">2h ago</ab>
+                </i></p>
+            </div>
+            </a>
+        </div><br><br>
+
+        <div><br>
+            <a href="http://www.cricbuzz.com">
+            <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
+                <p><i><b>
+                    If I play, I'll be listed at<br>
+                    number 3 - Mitchell Marsh<br></b>
+                    <ab style="color: rgb(68, 66, 66);">2h ago</ab>
+                </i></p>
+            </div>
+            </a>
+        </div><br><br>
+
+        <div><br>
+            <a href="http://www.cricbuzz.com">
+            <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
+                <p><i><b>
+                    If I play, I'll be listed at<br>
+                    number 3 - Mitchell Marsh<br></b>
+                    <ab style="color: rgb(68, 66, 66);">2h ago</ab>
+                </i></p>
+            </div>
+            </a>
+        </div><br><br>
+
+        <div><br>
+            <a href="http://www.cricbuzz.com">
+            <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
+                <p><i><b>
+                    If I play, I'll be listed at<br>
+                    number 3 - Mitchell Marsh<br></b>
+                    <ab style="color: rgb(68, 66, 66);">2h ago</ab>
+                </i></p>
+            </div>
+            </a>
+        </div><br><br>
+
+        <div><br>
+            <a href="http://www.cricbuzz.com">
+            <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
+                <p><i><b>
+                    If I play, I'll be listed at<br>
+                    number 3 - Mitchell Marsh<br></b>
+                    <ab style="color: rgb(68, 66, 66);">2h ago</ab>
+                </i></p>
+            </div>
+            </a>
+        </div><br><br>
+
+        <div><br>
+            <a href="http://www.cricbuzz.com">
+            <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
+                <p><i><b>
+                    If I play, I'll be listed at<br>
+                    number 3 - Mitchell Marsh<br></b>
+                    <ab style="color: rgb(68, 66, 66);">2h ago</ab>
+                </i></p>
+            </div>
+            </a>
+        </div><br><br>
+
+        <div><br>
+            <a href="http://www.cricbuzz.com">
+            <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
+                <p><i><b>
+                    If I play, I'll be listed at<br>
+                    number 3 - Mitchell Marsh<br></b>
+                    <ab style="color: rgb(68, 66, 66);">2h ago</ab>
+                </i></p>
+            </div>
+            </a>
+        </div><br><br>
+
+        <div><br>
+            <a href="http://www.cricbuzz.com">
+            <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
+                <p><i><b>
+                    If I play, I'll be listed at<br>
+                    number 3 - Mitchell Marsh<br></b>
+                    <ab style="color: rgb(68, 66, 66);">2h ago</ab>
+                </i></p>
+            </div>
+            </a>
+        </div><br><br>
+
+        <div><br>
+            <a href="http://www.cricbuzz.com">
+            <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
+                <p><i><b>
+                    If I play, I'll be listed at<br>
+                    number 3 - Mitchell Marsh<br></b>
+                    <ab style="color: rgb(68, 66, 66);">2h ago</ab>
+                </i></p>
+            </div>
+            </a>
+        </div>
+    </div><br><br>
+
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+
+    <section id="contact" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row">
+      <!-- How to change your own map point
+              1. Go to Google Maps
+              2. Click on your location point
+              3. Click "Share" and choose "Embed map" tab
+              4. Copy only URL and paste it within the src="" field below
+      -->
+                <div class="wow fadeInUp col-md-6 col-sm-12" data-wow-delay="0.4s">
+                   <div id="google-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14237.33313849603!2d75.79528354668363!3d26.861150245965934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db5d0b955550f%3A0x76c88dad77ef5db3!2sGRRAS%20Solutions(P)Ltd%20(CCNA%20CCNP%20RHCE%20Training%20Institute%20In%20Jaipur)!5e0!3m2!1sen!2sin!4v1639643285929!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>    
+  
+                <div class="col-md-6 col-sm-12">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
+                            <h2>Contact Us</h2>
+                        </div>
+                    </div>
+  
+                    <!-- CONTACT FORM -->
+                   <form action="#" method="post" class="wow fadeInUp" id="contact-form" role="form" data-wow-delay="0.8s">
+
+                        <!-- IF MAIL SENT SUCCESSFUL  // connect this with custom JS -->
+                        <h6 class="text-success">Your message has been sent successfully.</h6>
+                                
+                        <!-- IF MAIL NOT SENT -->
+                        <h6 class="text-danger">E-mail must be valid and message must be longer than 1 character.</h6>
+
+                        <div class="col-md-6 col-sm-6">
+                            <input type="text" class="form-control" id="cf-name" name="name" placeholder="Full name">
+                        </div>
+  
+                        <div class="col-md-6 col-sm-6">
+                             <input type="email" class="form-control" id="cf-email" name="email" placeholder="Email address">
+                        </div>
+  
+                        <div class="col-md-12 col-sm-12">
+                            <input type="text" class="form-control" id="cf-subject" name="subject" placeholder="Subject">
+  
+                            <textarea class="form-control" rows="6" id="cf-message" name="message" placeholder="Tell about your project"></textarea>
+  
+                            <button type="submit" class="form-control" id="cf-submit" name="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-4">
+                    <ul class="wow fadeInUp social-icon" data-wow-delay="0.4s">
+                        <li><a href="https://www.facebook.com/grrassolutionspvtltd" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+                        <li><a href="https://twitter.com/redhatgrras" class="fa fa-twitter"></a></li>
+                        <li><a href="https://www.instagram.com/grrasofficial" class="fa fa-instagram"></a></li>
+                        <li><a href="http://www.grras.com" class="fa fa-google"></a></li>
+                    </ul>
+
+                    <div class="wow fadeInUp copyright-text" data-wow-delay="0.8s"> 
+                        <p><br>Copyright &copy; 2021 <br> Grras Solutions Pvt. Ltd. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="{%static 'js/jquery.js'%}"></script>
+    <script src="{%static 'js/bootstrap.min.js'%}"></script>
+    <script src="{%static 'js/jquery.stellar.min.js'%}"></script>
+    <script src="{%static 'js/wow.min.js'%}"></script>
+    <script src="{%static 'js/owl.carousel.min.js'%}"></script>
+    <script src="{%static 'js/jquery.magnific-popup.min.js'%}"></script>
+    <script src="{%static 'js/smoothscroll.js'%}"></script>
+    <script src="{%static 'js/custom.js'%}"></script>
+</body>
+</html>
+
+{% endblock %}
