@@ -1,0 +1,69 @@
+body {
+    background-color: #ffffff10;
+    background-size: 1500px 650px;
+    }
+
+input[type=number], select {
+width: 35%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+font-family:Comic Sans MS;
+text-shadow:5px 5px 10px black;
+}
+
+input[type=text], select {
+width: 35%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+font-family:Comic Sans MS;
+text-shadow:5px 5px 10px black;
+}
+
+input[type=email], select {
+width: 35%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+font-family:Comic Sans MS;
+text-shadow:5px 5px 10px black;
+}
+
+input[type=password], select {
+    width: 35%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family:Comic Sans MS;
+    text-shadow:5px 5px 10px black;
+    }
+
+input[type=submit] {
+width: 15%;
+background-color: #C2B59B;
+color: black;
+padding: 14px 20px;
+margin: 8px 0;
+border: 1px solid black;
+border-radius: 4px;
+cursor: pointer;
+font-family:Comic Sans MS;
+text-shadow:5px 5px 10px black;
+}
+
+input[type=submit]:hover {
+background-color: #9F9F9F;
+}
